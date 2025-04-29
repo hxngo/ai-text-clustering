@@ -22,3 +22,22 @@ pip install -r requirements.txt
   - train_essays.csv: Training essay data (4.2MB)
   - train_prompts.csv: Essay writing prompts (26KB)
   - test_essays.csv: Test essay data (90B)
+
+## Analysis Method
+
+1. **Data Preprocessing**
+   - Lowercase conversion
+   - HTML tags and special characters removal
+   - Stopwords removal
+   - English tokenizer-based word tokenization
+
+2. **Feature Extraction**
+   - TF-IDF vectorization (max features: 10,000)
+
+3. **Dimensionality Reduction**
+   - PCA (n_components=50)
+   - Explained variance ratio: 32.04%
+
+4. **Clustering**
+   - K-means clustering (n_clusters=2)
+   - Silhouette Score: 0.3349
