@@ -41,3 +41,26 @@ pip install -r requirements.txt
 4. **Clustering**
    - K-means clustering (n_clusters=2)
    - Silhouette Score: 0.3349
+
+## Results
+
+### Clustering Performance
+- **Dataset Size**: 1,378 samples
+- **Cluster Sizes**:
+  - Cluster 0: 660 samples
+  - Cluster 1: 718 samples
+- **Label Distribution by Cluster**:
+  - Cluster 0: Human-written 99.70%, AI-generated 0.30%
+  - Cluster 1: Human-written 99.86%, AI-generated 0.14%
+- **Potential Classification Accuracy**: 99.78%
+
+### Characteristic Words by Cluster
+- **Cluster 0** (Election/Voting Topics):
+  - electoral, vote, college, president, electors, votes, states, popular, election, voters
+- **Cluster 1** (Automotive/Transportation Topics):
+  - car, cars, usage, people, pollution, driving, limiting, smog, air, transportation
+
+### Visualization Results
+- 2D visualization using PCA and t-SNE
+- Clear separation by topics
+- Topic-based clustering is more distinct than AI/human text separation
