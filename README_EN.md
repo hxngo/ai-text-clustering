@@ -81,3 +81,22 @@ This project is licensed under the MIT License.
 - scikit-learn documentation: [K-means Clustering](https://scikit-learn.org/stable/modules/clustering.html#k-means)
 - scikit-learn documentation: [PCA](https://scikit-learn.org/stable/modules/decomposition.html#pca)
 - scikit-learn documentation: [t-SNE](https://scikit-learn.org/stable/modules/manifold.html#t-sne)
+
+## Project Structure
+
+```
+Clustering/
+├── code/
+│   └── Clustering.py      # Main analysis code
+├── data/
+│   ├── train_essays.csv   # Training essay data
+│   ├── train_prompts.csv  # Prompt data
+│   ├── test_essays.csv    # Test essay data
+│   └── sample_submission.csv  # Submission format
+├── results/
+│   ├── labels_pca_2d.png  # PCA visualization (actual labels)
+│   ├── clusters_pca_2d.png  # PCA visualization (clusters)
+│   ├── labels_tsne_2d.png  # t-SNE visualization (actual labels)
+│   └── clusters_tsne_2d.png  # t-SNE visualization (clusters)
+└── requirements.txt       # Required packages
+```
