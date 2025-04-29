@@ -64,3 +64,20 @@ pip install -r requirements.txt
 - 2D visualization using PCA and t-SNE
 - Clear separation by topics
 - Topic-based clustering is more distinct than AI/human text separation
+
+## Conclusion
+
+- Clustering successfully separates texts based on topics
+- Unsupervised learning is challenging for AI/human text separation due to very low AI-generated text ratio (<1%)
+- t-SNE shows clearer cluster structure compared to PCA
+
+## License
+
+This project is licensed under the MIT License.
+
+## References
+
+- [Kaggle - LLM Detect AI Generated Text](https://www.kaggle.com/competitions/llm-detect-ai-generated-text)
+- scikit-learn documentation: [K-means Clustering](https://scikit-learn.org/stable/modules/clustering.html#k-means)
+- scikit-learn documentation: [PCA](https://scikit-learn.org/stable/modules/decomposition.html#pca)
+- scikit-learn documentation: [t-SNE](https://scikit-learn.org/stable/modules/manifold.html#t-sne)
